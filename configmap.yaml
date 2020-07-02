@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: test-cm
+data:
+  one_line: The first file
+  multi_line: |
+    you can store
+    multiline content
+    and configfiles
